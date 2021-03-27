@@ -1,0 +1,25 @@
+{
+    "name": "pawelwier/chuck-norris-jokes",
+    "description": "jokes about ch n",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pawelwier",
+            "email": "pawiercinski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pawelwier\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pawelwier\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
