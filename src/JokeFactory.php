@@ -22,4 +22,12 @@ class JokeFactory
     {
         return $this->jokes[array_rand($this->jokes)];
     }
+
+    public function getJokesNumber() {
+        return count($this->jokes);
+    }
+
+    public function getJokeAtIndex(int $index) {
+        return $this->jokes[$index];
+    }
 }
