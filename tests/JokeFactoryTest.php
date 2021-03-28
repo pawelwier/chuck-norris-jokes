@@ -79,6 +79,6 @@ class JokeFactoryTest extends TestCase
 
         $jokes = new JokeFactory();
 
-        $this->assertSame($jokes->getJokeAtIndex(8), "No joke at index 8");
+        $this->assertSame($jokes->getJokeAtIndex(8), "No joke at index 8.");
     }
 }
