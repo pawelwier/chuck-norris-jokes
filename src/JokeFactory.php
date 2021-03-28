@@ -28,6 +28,7 @@ class JokeFactory
     }
 
     public function getJokeAtIndex(int $index) {
-        return $this->jokes[$index];
+        if ($index < count($this->jokes)) return $this->jokes[$index];
+        else return "No joke at index $index.";
     }
 }
